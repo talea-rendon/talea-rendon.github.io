@@ -1,0 +1,213 @@
+body{
+	background-color: #e0e0e0;
+	margin: 0;
+
+}
+
+h1{
+  font-family: arial;
+	font-size: 48px;
+	color: black; 
+	text-align: center;
+}
+
+h2{
+  font-family: arial;
+	color: #7e877e;
+	font-size: 32px;
+  margin-left: 20px;
+}
+
+p{
+  font-family: arial;
+	font-size: 18px;
+	color: #212121;
+}
+
+.main{
+	text-align: center;
+	margin: 15px;
+}
+
+/* Navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #f7f7f7;
+  font-family: arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  background-color: inherit;
+
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #e6e6e6;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.name {
+  float: right;
+  margin-right: 15px;
+}
+
+/*ABOUT*/
+
+.about{
+  margin: 5%;
+}
+
+.pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+/*PORTFOLIO*/
+
+.cards{
+  display: grid;
+  grid-gap: 30px;
+  /*Grid tracks*/
+  grid-template-columns: repeat(auto-fill,minmax(500px, 3fr));
+  grid-auto-rows: 300px;
+  margin: 10%;
+   }
+
+   .cards img {
+   	object-fit: contain;
+   	width: 100%;
+   	height: 100%;
+   }
+
+/*flexbox*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 30%;
+  max-width: 30%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column video {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/*Contact page*/
+.contact-title{
+  text-align: center;
+  margin-top: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+  font-size: 32px;
+  line-height: 10px;
+}
+
+.contact-title h2{
+  font-size: 16px;
+}
+
+form{
+  text-align: center;
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px;
+
+}
+
+input{
+  height: 45px;
+}
+
+form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+  <!-- Nav bar -->
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn"> <img src="images/dropdown.png" alt="dropdown" width="50" height="50">
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <img src="images/name.png" class="name">
+</div>
+
+<div class="contact-title">
+  <h1>Contact</h1>
+  <h2>Send a message</h2>
+</div>
+
+<div class="contact-form">
+  <form id="contact-form" method="post" action="contact.php">
+    <input type="text" name="name" class="form-control" placeholder="Your Name" required><br>
+
+    <input type="email" name="email" class="form-control" placeholder="Your Email" required><br>
+
+    <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+    <input type="submit" class="form-control-submit" value="SEND MESSAGE">
+  
+</div>
+
+
+</body>
+</html>
