@@ -211,3 +211,23 @@ form .submit{
   margin-top: 20px;
 }
 
+
+/*Overfishing*/
+.bodyfish{
+  background-color: #40b1c9;
+  color: white;
+}
+
+#overfishing {
+  display: block;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+#overfishp{
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%
+}
