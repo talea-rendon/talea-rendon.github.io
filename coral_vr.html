@@ -2,7 +2,9 @@
 <html>
 <head>
   <title>coral vr</title>
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="ocean.css" />
+  <link rel="stylesheet" href="lightbox.min.css" rel="stylesheet" />
+  <script src="lightbox-plus-jquery.min.js"></script>
   <script src="modal.js" type="text/javascript"></script>
   <meta charset="utf-8">
     <meta name="description" content="Hello, WebVR! • A-Frame">
@@ -13,56 +15,138 @@
     <style>      
     model-viewer {
       margin: auto;
-      width: 50%;
+      width: 75%;
       height: 400px;
       align-content: right;
       }
-    p {
+    /*p {
       color: black;
       text-align: center;
       width: 50%;
       margin: auto;
-      }
-    h1 {
+      }*/
+    /*h1 {
       font-style: bold;
       color: black;
       text-align: center;  
-      }
+      }*/
   </style>
 </head>
 <body>
 
     <!-- Nav bar -->
 <div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn"> <img src="images/dropdown.png" alt="dropdown" width="50" height="50">
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="projects.html">Projects</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </div>
+	<a href="#one">Artist Statement</a>
+	<a href="#two">Coral Submersion</a>
+	<a href="#three">Empty Waters</a>
+	<a href="#four">Bycatch</a>
+	<a href="#five">Learn More</a>
   <img src="images/name.png" class="name">
 </div>
+
+
+ <div class="main">
  
-   
+
+ <div id="one" class="statement">
+
+<p> <br>
+</p>
+ <h1>Artist Statement</h1>
+ 
+ <p>
+ 	<br>
+ 	The Earth’s oceans and marine life have fascinated me for as long as I can remember. I was lucky enough to grow up near the Pacific Ocean and spent as much time on the shores and in the water as I possibly could. To this day, the beach is still my safe/happy place and holds a great deal of meaning to me. Our oceans are  beautiful, magical, and many people do not realize the importance they have in our lives. Studying the state of our oceans is crucial to the study of climate change, changing biodiversity, human wellness and much more. Oceans and the life inhabiting it play a large part in our day to day lives. It produces half the air we breathe, the food we eat and the water we drink. We all depend on the ocean every single day whether we know it or not, but many do not realize: the ocean is not limitless. 
+	This inspiring ecosystem houses millions of Earth’s plants and animals. The organisms that live there are fascinating, almost other worldly creatures capable of amazing things. 
+	These organisms and this environment as a whole, must be protected. Humans affect nearly all parts of the ocean, and most of the time not in a positive way. Climate change leads to a range of consequences including (but not limited to) coral bleaching and the shrinkage of arctic habitats. Fertilizer and other chemical runoff leads to large sections of the ocean turning into dead zones. Discarded fishing nets and the tons of garbage littering our oceans choke and snare various seabirds, fish, and marine mammals. The impact that each of us has is much greater than most people realize.
+	The following three pieces focus on various environmental issues affecting our oceans: coral bleaching, overfishing, and bycatch. These pieces push for discussion and bring forth the need of marine conservation. What happens to the ocean impacts all of us, and it is for this reason that the ocean is our responsibility. Together we are able to protect the oceans from some of the greatest global challenges of today.
+ 
+ 	<br>
+ 	<br>
+</p>
+ </div>
+
+ <div id="two">
+  
+  <!-- Actual id two break -->
   <h1>Coral Submerssion</h1>
 
-  <model-viewer src="https://cdn.glitch.com/25168e66-e249-4841-ad37-1b22e2cf9a77%2Fseafloor.glb?v=1602045922927" 
+  <!-- New Aframe -->
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/coral-submersion?path=index.html&previewSize=100&attributionHidden=true"
+    title="coral-submersion on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+
+  <!-- <model-viewer src="https://cdn.glitch.com/25168e66-e249-4841-ad37-1b22e2cf9a77%2Fseafloor.glb?v=1602045922927" 
                   alt="coral submerssion"
                   auto-rotate
                   >
     </model-viewer>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
-    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script> -->
 
+    <div id="three">
     <p> Coral Submersion is a VR piece I created using Blender and A-frame. It is a collection of coral 3D models. The coral in this scene is half bright tropic colors while the other half is bleak and grey. The abrupt contrast of the coral’s color will hopefully bring awareness to this conservation crisis we are facing through a beautifully sad visual representation of environmental change.</p>
+    </div>
 
 
+    <!-- Actual id three break -->
+     <h1>Empty Waters</h1>
 
-  
+  <div id="overfishing">
+    <iframe src="https://editor.p5js.org/talea-r/embed/X_TXS3Sdz"></iframe>
+</div>
+ 
+   <p>
+  For my second Project, I am using p5js to create an interactive commentary on the state of our oceans, specifically overfishing. One-third of the world's assessed fisheries are currently pushed beyond their biological limits, meaning people are catching fish quicker than they can replenish. This not only affects the ocean’s ecosystem and environment but also has a direct impact on humans. Fishing is the primary livelihood of millions of people around the world and billions of people rely on fish as a dietary staple. It is predicted that if the trends we are currently seeing in the fishing industry continue, the world’s oceans could be virtually emptied of fish by 2048. This is a major problem we are facing and that many people are unaware of. </p>
+  <div id="four">
+  <p>
+  I used p5js to create a sketch in which the viewer can move their mouse across the screen from 2012 to 2042 and see as particles appear/disappear representing the depletion of fish in our oceans. This way the viewers can see just how fast this change is happening and how large of a difference it is. Not only will the circles/particles appear and disappear but the color of the screen will also change as a way to show the increase of pollution in our oceans.
+  </p>
+  </div>
+
+
+  	<!-- Actual id four break -->
+    <h1> Bycatch</h1>
+    <div class="gallery">
+    	<a href="images/ocean_107/bycatch1.png" data-lightbox="mygallery"><img src="images/ocean_107/small1.png"></a>
+    	<a href="images/ocean_107/bycatch2.png" data-lightbox="mygallery"><img src="images/ocean_107/small2.png"></a>
+   
+    
+    </div>
+    <p>Around 40% of all fish are caught unintentionally. This poster set brings forth the issue of bycatch and the statistics behind seafood. It is necessary to begin a conversation and raise awareness towards the millions of fish, mammals, and birds killed each year as a result of bycatch. </p>
+    </div>
+
+	<div id="five">
+    <h1>Learn More</h1>
+    <p>When conducting research for the above pieces, I found many artists that created work inspired by similar topics. I drew inspiration from many of these artists for my own pieces. Artists include:</p>
+    
+    <div class="artist">
+    <a href="https://www.vanessabarragao.com/html/homepage.html">Vanessa Barragão:</a>  
+    <p>Vanessa Barragão is a textile artist who knits coral reefs using yarn waste from the textile industry bringing awareness to the ocean pollution this industry creates.</p>
+ 
+ 	<a href="https://courtneymattison.com/">Courtney Mattison:</a>  
+ 	<p>Courtney Mattison creates ceramic sculptures promoting ocean preservation, exploring the diversity of coral reefs and how they are rapidly dying.
+    </p> 
+    </div>
+
+    <p> Together we are able to protect the oceans from some of the greatest global challenges of today. Learn more about how you can help save our oceans:</p>
+
+    <div class="artist">
+    <a href="https://www.worldwildlife.org/pages/everything-you-need-to-know-about-coral-bleaching-and-how-we-can-stop-it">Coral Bleaching:</a>  
+    <p> We need to act now if we want to protect coral for future generations. Small, daily actions can help reduce coral reef loss, like reducing stormwater and fertilizer runoff or avoiding herbicides and pesticides.</p>
+ 
+ 	<a href="https://therevolutionmovie.com/index.php/open-your-eyes/overfishing/solutions/">Overfishing & Bycatch:</a>  
+ 	<p> We are facing an imminent and global collapse of our fisheries, projected to happen as early as 2048, thanks to overfishing, wasteful fishing practices and massive overconsumption. But, there are a few key tried-and-tested solutions to overfishing that have been successfully implemented around the world...
+    </p> 
+
+    </div>
+    
+</div>
   
 
 </body>

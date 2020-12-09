@@ -1,0 +1,133 @@
+body{
+	background-image: url(images/ocean_107/waterBG.png);
+  background-repeat: no-repeat;
+  background-color: #0146a5;
+  margin: 0;
+
+}
+
+h1{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;;
+	font-size: 48px;
+	color: white; 
+	text-align: center;
+  margin-top: 60px;
+}
+
+h2{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: white;
+	font-size: 32px;
+  margin-left: 20px;
+}
+
+p{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 20px;
+	color: white;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+a{
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+.main{
+	text-align: center;
+  width: 75%;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+/* Navbar */
+.navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.85);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a{
+  float: left;
+  display: block;
+  color: #0e1875;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;;
+  font-size: 18px;
+  text-decoration: none; 
+}
+
+
+.name {
+  float: right;
+  margin-right: 15px;
+  width: 25%;
+}
+
+.statement{
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.statement p{
+  color: #0e1875;
+  margin-bottom: 10px;
+}
+
+.statement h1{
+  color: #0e1875;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+/*Overfishing*/
+.bodyfish{
+  background-image: url("images/water.jpg");
+  /*background-color: #40b1c9;*/
+  color: white;
+}
+
+#overfishing {
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  border: none;
+}
+
+
+
+/*Gallery*/
+
+.gallery{
+  margin: 10px 50px;
+
+}
+
+.gallery img{
+  transition: 1s;
+  padding: 15px;
+  width: 200px;
+
+}
+
+.gallery img:hover{
+  filter: grayscale(80%);
+  transform: scale(1.1);
+}
+
+.artist{
+  text-align: left;
+}
+
+.artist p{
+  text-align: left;
+}
