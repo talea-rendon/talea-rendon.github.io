@@ -101,6 +101,7 @@ p{
 .name {
   float: right;
   margin-right: 15px;
+  width: 25%;
 }
 
 /*ABOUT*/
@@ -158,6 +159,14 @@ p{
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+.video{
+  display: block;
+  margin: auto;
+  align-content: center;
+  vertical-align: middle;
+  width: 50%;
 }
 
 /*Contact page*/
@@ -232,4 +241,20 @@ form .submit{
   margin-right: 5%;
   margin-left: 5%;
   color: white;
+}
+
+/*bfa*/
+.btn {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 14px 28px;
+  font-size: 24px;
+  cursor: pointer;
+  display: inline-block;
+}
+/* On mouse-over */
+.btn:hover {
+  background: #363636;
+
 }
